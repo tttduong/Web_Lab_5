@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+   
+    
+    <h1>School of Computer Science & Engineering</h1>
+    <hr>
+    <h2>Register Form</h2>
+    <form action="" method="post">
+        <table>
+            <tr>
+                <td><label for="fullname">Full Name</label></td>
+                <td><input name="fullname_name" id="fullname" type="text"/></td>
+            </tr>
+            <tr>
+                <td><label for="id">ID</label></td>
+                <td><input name="id_name" id="id" type="text"/></td>
+
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input name="email_name" id="email" type="text"/></td>
+            </tr>
+            <tr>
+                <td><label>Gender</label></td>
+                <td>
+                    <input name="gender_name" id="male_id" value="male" type="radio"/>Male
+                    <input name="gender_name" id="female_id" value="female" type="radio"/>Female
+                </td>
+            </tr>
+            <tr>
+                <td><label for="study">Field of study</label></td>
+                <td>
+                    <select id="study">
+                        <option value="cs">CS</option>
+                        <option value="ds">DS</option>
+                        <option value="it">IT</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>List of subjects</label></td>
+                <td class="checkbox">
+                    <label> <input type="checkbox" name="subjects"  value="principle_of_ee_1">Principle of EE 1</label>
+                    <label><input type="checkbox" name="subjects"  value="computer_network"/>Computer Network </label>
+                    <label> <input type="checkbox" name="subjects"  value="web_application_development"/>Web Application Development </label>
+                    <label> <input type="checkbox" name="subjects"  value="object_oriented_programming"/>Object Oriented Programming</label>
+                    <label><input type="checkbox" name="subjects"  value="computer_graphics"/>Computer Graphics</label>
+                   
+                </td>
+            </tr>
+            <tr>
+                <td><label for="comment">Comments</label></td>
+                <td>
+                    <textarea  id="comment" cols="40" rows="3"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td> <input type="submit" value="Submit"/></td>
+                <td>
+                    <input type="reset" value="Reset"/>
+                </td>
+            </tr>
+        </table>
+ 
+       
+    </form>
+</body>
+</html>
