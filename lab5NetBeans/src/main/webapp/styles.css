@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: antiquewhite;
+}
+hr{
+    border: none;            
+    height: 0.5px;               
+    background-color: black;     
+    margin: 20px 0;           
+
+}
+
+
+h2,form{
+    margin: 10px auto;
+}
+.checkbox{
+    display: flex;
+    flex-direction: column;
+}
+.checkbox label{
+    display: flex;
+    flex-direction: row;
+}
+textarea{
+    overflow-y: scroll;
+    resize: none;
+}
